@@ -28,7 +28,7 @@ Move events include both renamed file or folders and files or folders that are m
   "time": "2019-05-13_10:58:35-0400"
 }
 ```
-#
+
 ## Delete events
 
 ```json
