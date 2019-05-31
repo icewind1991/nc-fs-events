@@ -12,9 +12,16 @@ Write events include both the creation of new files or folders and the modificat
 {
   "event": "modify",
   "path": "/changed/or/created/file",
-  "time": "2019-05-13_10:58:35-0400"
+  "time": "2019-05-13_10:58:35-0400",
+  "size": 1024
 }
 ```
+
+Both the `time` and `size` fields are optional but leaving them out will result in extra work for the event handler which can negatively impact performance.
+
+The `time` field is the time that the event was made, encoded in ISO_8601.
+
+The `size` field is the size of the file in bytes after the write.
 
 ### Move events
 
