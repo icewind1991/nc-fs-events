@@ -12,7 +12,7 @@ Write events include both the creation of new files or folders and the modificat
 {
   "event": "modify",
   "path": "/changed/or/created/file",
-  "time": "2019-05-13_10:58:35-0400",
+  "time": "2019-05-13T10:58:35-0400",
   "size": 1024
 }
 ```
@@ -32,7 +32,7 @@ Move events include both renamed file or folders and files or folders that are m
   "event": "move",
   "from": "/source/path/of/file",
   "to": "/target/path/of/file",
-  "time": "2019-05-13_10:58:35-0400"
+  "time": "2019-05-13T10:58:35-0400"
 }
 ```
 
@@ -42,7 +42,7 @@ Move events include both renamed file or folders and files or folders that are m
 {
   "event": "delete",
   "path": "/path/of/deleted/file",
-  "time": "2019-05-13_10:58:35-0400"
+  "time": "2019-05-13T10:58:35-0400"
 }
 ```
 
